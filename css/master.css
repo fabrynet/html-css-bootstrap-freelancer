@@ -1,0 +1,32 @@
+/* reset dei margini */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* debug */
+.row {
+  background-color: white;
+  height: 100px;
+}
+[class*="col-"] {
+  min-height: 100%;
+  position: relative;
+  background-color: pink;
+  border: 1px solid black;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header {
+  background-color: green;
+}
+main {
+  background-color: yellow;
+}
+footer {
+  background-color: blue;
+}
