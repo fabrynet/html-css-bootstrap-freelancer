@@ -1,0 +1,190 @@
+header {
+  height: 90px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #2c3e50;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 20px 0;
+  letter-spacing: 1px;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav li a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-brand {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav li a {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #18bc9c;
+}
+
+.section-green {
+  background-color: #18bc9c;
+  color: #fff;
+}
+
+.intro-image {
+  max-width: 250px;
+}
+
+/* headings */
+
+.heading-primary {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.heading-secondary {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.heading-tertiary {
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 20px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+/* hr style */
+
+hr {
+  border: none;
+  border-top: solid 3px;
+  max-width: 100px;
+  margin: 30px auto;
+}
+
+
+/* utility classes */
+
+.m-tb-30 {
+  margin: 30px auto;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+
+/* section portfolio */
+
+.portfolio__item {
+  background-color: #dc3545;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.item-image {
+  width: 180px;
+  padding: 20px 0;
+}
+
+/* footer */
+
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.footer__pre {
+  padding: 50px 0;
+}
+
+.footer__sub {
+  background-color: #1a252f;
+  padding: 20px;
+}
+
+.footer__col {
+  padding: 15px;
+}
+
+.link-green {
+  color: #18bc9c;
+  text-decoration: none;
+}
+
+.link-green:hover {
+  color: #179980;
+}
+
+[class^="fab"] {
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 55px;
+  margin-left: 10px;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+
+  section {
+    padding: 30px 0;
+  }
+
+  .section-about p {
+    margin-bottom: 30px;
+  }
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .navbar-default .navbar-brand {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  hr {
+    margin: 20px auto;
+  }
+
+  /* headings */
+
+  .heading-primary {
+    font-size: 35px;
+  }
+
+  .heading-secondary {
+    font-size: 25px;
+  }
+
+  .heading-tertiary {
+    font-size: 18px;
+  }
+
+  /* footer */
+
+  .footer__pre {
+    padding: 10px 0;
+  }
+
+}
