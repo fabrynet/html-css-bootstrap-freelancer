@@ -29,6 +29,16 @@
 body {
   font-family: Lato, sans-serif;
 }
+section {
+  padding: 80px 0;
+}
+h1, h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 40px;
+}
 /* regole generali divisore */
 .divider {
   color: inherit;
@@ -81,23 +91,28 @@ header .navbar-collapse .navbar-right a:hover {
   color: #fff;
 }
 #jumbotron .jumbo {
-  margin: 90px 0;
   text-align: center;
 }
 #jumbotron .jumbo img {
   width: 240px;
 }
-#jumbotron .jumbo h1 {
-  font-size: 50px;
-  font-weight: bold;
-}
 #jumbotron .subtitle {
   font-size: 20px;
 }
 
-main {
-  background-color: yellow;
+/* portfolio */
+#portfolio {
+  color: #2c3e50;
+  text-align: center;
 }
+#portfolio .card {
+  padding: 10px 0;
+}
+#portfolio .card img {
+  border-radius: 6px;
+  width: 100%;
+}
+
 footer {
   background-color: blue;
 }
