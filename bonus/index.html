@@ -19,6 +19,71 @@
   <body>
 
       <!-- modali -->
+      <div class="ms_modal">
+        <!-- cabin modal -->
+        <div class="modal fade" id="cabinModal" tabindex="-1" role="dialog" aria-labelledby="cabinModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <i class="fas fa-times"></i>
+              </button>
+              <div class="modal-header">
+                <h2>PORTFOLIO</h2>
+                <div class="ms_divider">
+                  <span class="ms_divider_line"></span>
+                  <span class="ms_divider_icon"><i class="fas fa-star"></i></span>
+                  <span class="ms_divider_line"></span>
+                </div>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-xs-8 col-xs-offset-2">
+                    <img src="img/casa.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i>&nbsp;&nbsp;Close Window</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- tasty cake modal -->
+        <div class="modal fade" id="tastyCakeModal" tabindex="-1" role="dialog" aria-labelledby="tastyCakeModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <i class="fas fa-times"></i>
+              </button>
+              <div class="modal-header">
+                <h2>PORTFOLIO</h2>
+                <div class="ms_divider">
+                  <span class="ms_divider_line"></span>
+                  <span class="ms_divider_icon"><i class="fas fa-star"></i></span>
+                  <span class="ms_divider_line"></span>
+                </div>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-xs-8 col-xs-offset-2">
+                    <img src="img/casa.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i>&nbsp;&nbsp;Close Window</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /ms_modal -->
 
       <!-- header -->
       <header>
@@ -91,7 +156,7 @@
             <!-- cards -->
             <div class="row">
               <div class="col-xs-12 col-sm-6 col-lg-4">
-                <div class="ms_card">
+                <div class="ms_card" data-toggle="modal" data-target="#cabinModal">
                   <div class="ms_layover">
                     <i class="fas fa-plus"></i>
                   </div>
@@ -99,7 +164,7 @@
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-lg-4">
-                <div class="ms_card">
+                <div class="ms_card" data-toggle="modal" data-target="#tasyCakeModal">
                   <div class="ms_layover">
                     <i class="fas fa-plus"></i>
                   </div>

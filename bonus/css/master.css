@@ -72,6 +72,36 @@ a:hover {
   border: 2px solid;
   border-radius: 1rem;
 }
+/* modali */
+.ms_modal {
+  color: #2c3e50;
+  text-align: center;
+}
+.ms_modal img {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.ms_modal .close {
+  color: #1abc9c;
+  font-size: 2em;
+  margin: 20px;
+}
+.ms_modal .modal-header {
+  border-bottom: none;
+}
+.ms_modal .modal-footer {
+  border-top: none;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.ms_modal .modal-footer .btn-default {
+  background-color: #1abc9c;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 6px;
+}
 
 /* header */
 header {
