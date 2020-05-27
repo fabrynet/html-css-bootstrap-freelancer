@@ -55,17 +55,17 @@ a:hover {
   color: #117964;
 }
 /* regole generali divisore */
-.divider {
+.ms_divider {
   color: inherit;
   margin: 20px 0;
 }
-.divider-icon {
+.ms_divider_icon {
   display: inline-block;
   width: 50px;
   font-size: 30px;
   vertical-align: middle;
 }
-.divider-line {
+.ms_divider_line {
   display: inline-block;
   width: 20%;
   height: 4px;
@@ -108,7 +108,7 @@ header .navbar-collapse .navbar-right a:hover {
   color: #fff;
   text-align: center;
 }
-#jumbotron .jumbo img {
+#jumbotron img {
   width: 240px;
 }
 
@@ -117,10 +117,10 @@ header .navbar-collapse .navbar-right a:hover {
   color: #2c3e50;
   text-align: center;
 }
-#portfolio .card {
+#portfolio .ms_card {
   padding: 10px 0;
 }
-#portfolio .card img {
+#portfolio .ms_card img {
   border-radius: 6px;
   width: 100%;
 }
@@ -133,7 +133,7 @@ header .navbar-collapse .navbar-right a:hover {
 #about p {
   text-align: left;
 }
-#about .btn {
+#about .btn-default {
   background-color: transparent;
   color: #fff;
   font-size: 20px;
@@ -160,12 +160,13 @@ header .navbar-collapse .navbar-right a:hover {
   border: none;
   border-bottom: solid 1px lightgrey;
   box-shadow: none;
+  border-radius: 0;
 }
 #contactme .form-group textarea {
   width: 100%;
 }
 #contactme .form-control::placeholder {
-  font-size: 20px;
+  font-size: 16px;
   color: #6c757d;
 }
 #contactme .btn-default {
@@ -187,7 +188,7 @@ footer #contacts {
   background-color: #2c3e50;
   padding: 40px 0;
 }
-#contacts .social a {
+#contacts .ms_social a {
   display: inline-block;
   margin: 0 2px;
   width: 50px;
@@ -197,7 +198,7 @@ footer #contacts {
   border: 2px solid #fff;
   border-radius: 50%;
 }
-#contacts .social a:hover {
+#contacts .ms_social a:hover {
   color: #2c3e50;
   background-color: #fff;
   box-shadow: 0px 0px 5px #dedede;
